@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6699CC;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 2px solid #3366CC;
+    border-radius: 10px;
+}
+
+.left-column {
+    width: 200px;
+    padding: 20px;
+    background-color: #E6E6FA;
+    border-right: 1px solid #CCCCCC;
+}
+
+.profile-image img {
+    width: 100%;
+    border: 1px solid #999;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.action-link {
+    display: block;
+    margin-bottom: 5px;
+    color: #3366CC;
+    text-decoration: none;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.back-link {
+    color: #3366CC;
+    text-decoration: none;
+}
+
+.post {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #999;
+    padding-bottom: 20px;
+}
+
+.photo-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+.photo-description {
+    font-style: italic;
+    color: #666;
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+}
+
+.right-column {
+    width: 200px;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border-left: 1px solid #CCCCCC;
+}
+
+.info-box, .archives, .fans {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #3366CC;
+}
+
+.info-box p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+/* Add styles for archives and fans sections as needed */
